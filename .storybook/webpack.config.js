@@ -3,7 +3,7 @@ module.exports = (base, env, config) => {
     test: /\.(ts|tsx)$/,
     use: [
       {
-        loader: require.resolve("awesome-typescript-loader")
+        loader: require.resolve("ts-loader")
       }
     ]
   });
