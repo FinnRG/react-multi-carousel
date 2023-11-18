@@ -130,5 +130,7 @@
     "uglify-js": "^3.5.11",
     "uglifycss": "0.0.29"
   },
-  "dependencies": {}
+  "dependencies": {
+    "lucide-react": "^0.292.0"
+  }
 }

@@ -1,6 +1,7 @@
 import * as React from "react";
 
 import { StateCallBack } from "./types";
+import { LucideChevronLeft, LucideChevronRight } from "lucide-react";
 
 interface LeftArrowProps {
   customLeftArrow?: React.ReactElement<any> | null;
@@ -41,7 +42,9 @@ const LeftArrow = ({
       onClick={() => previous()}
       type="button"
       disabled={disabled}
-    />
+    >
+      <LucideChevronLeft size={35} color="whitesmoke" />
+    </button>
   );
 };
 const RightArrow = ({
@@ -68,7 +71,9 @@ const RightArrow = ({
       onClick={() => next()}
       type="button"
       disabled={disabled}
-    />
+    >
+      <LucideChevronRight size={35} color="whitesmoke" />
+    </button>
   );
 };
 
